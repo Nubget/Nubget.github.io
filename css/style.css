@@ -1,0 +1,51 @@
+h1{
+  color: #8d51c3;
+  text-align: center;
+}
+
+h2{
+  color: #ba34ff;
+  text-align: center;
+}
+
+h3{
+  color: #5be48f;
+}
+
+.navbar{
+  background-color: #2ef1b3ff;
+}
+
+.btn{
+  background-color: #c995f8ff;
+  margin-left:15%; margin-top:-3%; margin-bottom: 1%;
+}
+
+.project{
+  width: 700px;
+  padding-left:40px;
+  padding-top:20px;
+}
+
+.mine{
+  color: #19b956;
+}
+
+.classified{
+  color: #3bf08c;
+  text-align:left;
+  position: absolute;
+  right: 0px;
+}
+
+.index{
+  background-image:url("../img/KSA_Popstar.png");
+  background-repeat: no-repeat;
+  background-size: 2000px 1500px;
+}
+
+.about{
+  background-image:url("../img/Inkopolis.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 1500px;
+}
