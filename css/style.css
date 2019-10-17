@@ -39,6 +39,10 @@ h3{
   right: 0px;
 }
 
+.index{
+ background-color: #8d51c3; 
+}
+
 .about{
   background-image:url("../img/Inkopolis.jpg");
   background-repeat: no-repeat;
