@@ -44,6 +44,6 @@ h3{
 }
 
 .about{
-  background-image:url("../img/Inkopolis.jpg");
-  background-size: 1500px 1100px;
+  width: 1500px;
+  height: 1000px;
 }
