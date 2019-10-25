@@ -37,6 +37,8 @@ h3{
   text-align:left;
   position: absolute;
   right: 0px;
+  width: 50%;
+  min-width:100px;
 }
 
 .about{
