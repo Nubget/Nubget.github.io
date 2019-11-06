@@ -11,11 +11,20 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Digital clock</title>
-    <style type="text/css">
-    body{
+ <style type="text/css">
+   body{
       background: #4f62c9;
     }
-    </style>
+    
+  .clock{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   color: #56c26f;
+   font-size: 80px;
+ }
+ </style>
   </head>
   <body>
     <div id="MyClockDisplay" class="clock"></div>
