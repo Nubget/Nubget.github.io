@@ -44,5 +44,63 @@
 <img id="myImage" src="img/Thanos pulled it off.png" style="width:500px">
 
 <button onclick="document.getElementById('myImage').src='img/Thanos pulled it off.png'">Put it back on</button>
+  <script type="text/javascript">
+    function nameless(){
+      var billAmount = document.getElementById("box").value;
+      var service = document.getElementById("rate").value;
+      var people = document.getElementById("block").value;
+      total = Math.round(total * 100) / 100;
+      total = total.toFixed(2);
+
+        if (billAmount === "" || billAmount == 0); {
+          alert("Only Numbers");
+          return;
+        }
+
+        if document.getElementById("bink").onclick; {
+          return;
+        }
+
+        document.getElementById("boomer").style.display = "block";
+        document.getElementById("bink").innerHTML = total;
+
+        document.getElementById("cal").onclick = function(){
+          nameless();
+        }
+    }
+  </script>
+  <div class="container">
+    <nav class="navbar navbar-default tawp">
+      <h1 class="top">Tip Calculator</h1>
+    </nav>
+<form>
+ <p> How much?</p>
+    <input type="text" id="box" placeholder="Bill amount" />
+<br>
+<br>
+   <div class="small">
+      <p>How was your service?</p>
+         <select id = "rate">
+           <option>--Choose an Option--</option>
+           <option>Terrible 5%</option>
+           <option>Decent 10%</option>
+           <option>Great 15%</option>
+           <option>S RANK 20%</option>
+         </select>
+    </div>
+<br>
+   <div>
+      <p>How many people are sharing the bill?</p>
+
+  <input type="text" id="block" placeholder="Number of People" />
+<br>
+<br>
+<br>
+      <button id="cal">Calculate</button>
+  </div>
+  <div id="boomer">
+  <span id="bink">$0.00</span>
+  </div>
+  </div>
 </body>
 </html>
