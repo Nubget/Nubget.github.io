@@ -76,10 +76,17 @@ input{
   width: 30%;
 }
 
-#bink{
+ /* #each{
+  font-size: 50px;
+  color: #31d97c;
+  display: block;
+} */
+
+/* #bink{
   color: #31d97c;
   font-size: 55px;
-}
+  display: block;
+} */
 
 #rate{
   font-size: 40px;
@@ -88,7 +95,23 @@ input{
 
 #cal{
 background-color: #8955f5;
-color: #00bfff;
+color: #31d97c;
 border: 2px solid #8c1aff;
 font-size: 70px;
+}
+
+#boomer:before {
+  content: "Tip amount";
+  font-size: 20px;
+  color: #31d97c;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#boomer small {
+  font-size: 20px;
+  color: #31d97c;
+  font-weight: bold;
+  display: block;
 }
